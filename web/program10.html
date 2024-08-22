@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Java Program 1 - Hello World">
+    <title>Java Program 10: Greatest among 3 numbers </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        pre {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Java Program 10: Greatest among 3 numbers</h1>
+
+    <pre>
+
+        import java.util.Scanner;
+class Greatest {
+	public static void main(String args[]) {
+		int first;
+		int second;
+		int third;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the 3 number");
+		first =sc.nextInt();
+		second =sc.nextInt();
+		third =sc.nextInt();
+		
+		if(first>second && first>third){
+			System.out.println(first + " is greatest number");
+		
+		}else if(second>third){
+		    System.out.println(second + " is greatest number");   
+			
+		}else{
+			System.out.println(third + " is greatest number"); 
+		}
+	}
+}
+    
+    </pre>
+
+    <p><a href="index.html">Back to Programs</a></p>
+</body>
+
+</html>
